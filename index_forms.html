@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<!--Final Project- Cover
+	Author- Raymond Ynoa-->
+	
+<head>
+	
+	 <!--title & meta tags-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8" />
+   <title>Warm Waters: SA</title>
+   <link rel="shortcut icon" type="image/png" href="sa_logo.png">
+   
+   <!--CSS Files-->
+  <link rel="stylesheet" type="text/css" href="final_forms.css">
+  <link rel="stylesheet" type="text/css" href="final_styles.css">
+  <link rel="stylesheet" type="text/css" href="validations.css">
+  
+   <!--JavaScript Files-->
+  <script src="sa_script.js"></script>
+   
+</head>
+
+<body>
+<div id="container">
+	<header><img src="sa_island2.bmp" alt="Free Santa Aria Vacation" id="island2"/>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+	
+	<header id="swep">Santa Aria Sweepstakes</header>
+	
+	<section>
+      <h1>Registration Form</h1>
+      <p>Required Item (*)</p>
+      
+     <form action="index_forms.html" method="post">
+       
+       <div>
+       <label for="titleBox">Title</label>
+       <input type="text" name="title" id="titleBox" value="" list="titleList">
+       </div>
+       <div>
+       <label for="fnBox">First Name*</label>
+       <input type="text" name="firstName" id="fnBox" value="" required>
+         </div>
+       <div>
+       <label for="lnBox">Last Name*</label>
+       <input type="text" name="lastName" id="lnBox" value="" required>
+         </div>
+       <div>
+       <label for="addBox">Address*</label>
+       <textarea type="text" name="address" id="addBox" value=""required></textarea>
+         </div>
+       <div>
+       <label for="mailBox">E-mail*</label>
+       <input type="email" name="email" id="mailBox" value="" required>
+         </div>
+       <div>
+       <label for="phoneBox">Phone Number*</label>
+       <input type="tel" name="phoneNumber" id="phoneBox" value="" required>
+         </div>
+		 
+		 <div>
+       <label for="regCat">Bank Card</label>
+       <select id="regList" name="reCat">
+         <option value="am">Debit Card</option>
+         <option value="nm">Credit Card</option>
+       </select>
+	   
+       <div>
+       <label for="acgipID">Credit/Debit Card #*</label>
+       <input type="text" name="acgipID" id="idBox" value="" required>
+         </div>
+		<div>
+       <label for="groupBox">Expiration Date*</label>
+       <input type="text" name="group" id="groupBox" value="" required>
+         </div>
+		<div>
+			<p>(Note:Never use bank card information on sketchy sites.)</p>
+		</div>
+       
+       <datalist id="titleList">
+         <option value="Mr." />
+         <option value="Mrs." />
+         <option value="Ms." />
+         <option value="Prof." />
+         <option value="Dr." />
+         <option value="Assist. Prof." />
+         <option value="Assoc. Prof." />
+       </datalist>
+      
+     </div>
+  <p> <input value="Submit" type="submit" /></p>
+    </form>
+   </section>
+	
+	<p><br><br><br><br></p>
+	
+	</article>
+	
+</div>
+	<footer id="footer">
+	<nav>
+         <ul>
+            <li><a href="index_about.html">About Us</a></li>
+		</ul>
+	</nav>
+	<p> ©2019 Warm Waters LLC All rights reserved.</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* Validation2 Styles */
+input:focus,
+select:focus,
+textarea:focus{
+  background: rgb(245, 245, 140);
+}

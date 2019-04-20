@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*Forms style*/
+input[type='submit'], {
+   background-color: rgb(144, 255, 144);
+   color: black;
+   border-radius: 20px;
+   float: none;
+   display: inline;
+   font-size: 1.1em;
+   height: 30px;
+   width: 150px;
+}
+
+div#button{
+   color: black;
+   display: block;
+}
+input, select, textarea {
+   display: block;
+   float: left;
+   margin: 5px 0px;
+   width: 210px;
+}
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   margin: 5px;
+   width: 200px;
+}
+
+textarea {
+   height: 100px;
+}
+
+form p {
+   clear: left;
+   text-align: center;
+   padding-top: 40px;
+}
